@@ -1,0 +1,17 @@
+{
+  "prefix_id": "p031",
+  "variant": "Aadj",
+  "layer": 24,
+  "kv_head": 6,
+  "done_ckpts": 768,
+  "n_traj": 4672,
+  "elapsed_s": 1167.8867394924164,
+  "gate_stats": {
+    "hash_checks": 2304,
+    "hash_fail": 0,
+    "fp_both_correct": 32,
+    "fp_checked": 32,
+    "zero_pert_checks": 64,
+    "zero_pert_fail": 0
+  }
+}

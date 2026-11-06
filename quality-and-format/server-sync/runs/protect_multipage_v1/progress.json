@@ -1,0 +1,17 @@
+{
+  "prefix_id": "p031",
+  "done_ckpts": 1440,
+  "n_traj": 2880,
+  "n_metrics": 1440,
+  "elapsed_s": 730.1794397830963,
+  "gate_stats": {
+    "hash_checks": 1440,
+    "hash_fail": 0,
+    "fp_both_correct": 32,
+    "fp_checked": 32,
+    "zero_pert_checks": 8,
+    "zero_pert_fail": 0,
+    "empty_protect_ok": 0,
+    "missing_score_pages": 0
+  }
+}

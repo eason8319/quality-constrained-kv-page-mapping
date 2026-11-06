@@ -1,0 +1,3 @@
+{"prefix_id": "p000", "gate": "manip", "pass": true, "rise_jia": 13.78637698997045, "stab_yi": 0.0006580079366358405, "nll_jia_orig": 0.0025663007399998605, "nll_jia_manip": 13.78894329071045, "nll_yi_orig": 0.0019512727249093587, "nll_yi_manip": 0.0012932647882735182}
+{"prefix_id": "p000", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p000", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}

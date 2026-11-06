@@ -1,0 +1,37 @@
+{
+  "caveat": "Prefixes are the same retrieval-style paired templates as pilot_32 (Archive Alpha/Beta codewords). Retrieval frequency is experimenter-set; do NOT treat page-sensitivity rates as naturalistic load estimates.",
+  "n_prefix": 32,
+  "L_p": 64,
+  "g": 64,
+  "b": 2,
+  "heads": [
+    [
+      10,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      22,
+      2
+    ],
+    [
+      22,
+      4
+    ],
+    [
+      24,
+      6
+    ]
+  ],
+  "heads_rationale": "Stronger |mean D| cells from pilot_32 breakdown (early/late).",
+  "intervenes": [
+    "k",
+    "v",
+    "kv"
+  ],
+  "model": "/cluster/home/zengy/hf-cache/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+  "harm_def": "H_p = max(0,S_jia)+max(0,S_yi) for a fixed (l,h,intervene); protection keeps top pages FP."
+}

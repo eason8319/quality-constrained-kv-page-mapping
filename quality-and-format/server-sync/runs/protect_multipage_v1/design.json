@@ -1,0 +1,64 @@
+{
+  "exp_id": "protect_multipage_v1",
+  "arm": "protect_multipage_equal_budget",
+  "template": "retrieval",
+  "seed": 20261105,
+  "n_prefix": 32,
+  "L_p": 64,
+  "g": 64,
+  "b": 4,
+  "heads": [
+    [
+      10,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      22,
+      2
+    ],
+    [
+      22,
+      4
+    ],
+    [
+      24,
+      6
+    ]
+  ],
+  "intervenes": [
+    "kv"
+  ],
+  "strategies": [
+    "oracle_H",
+    "bucket",
+    "random",
+    "struct+content",
+    "none"
+  ],
+  "budgets": [
+    0.25,
+    0.5
+  ],
+  "harms_path": "/cluster/home/zengy/quality-constrained-kv-page-mapping/runs/rep_sample_v1/page_harms.jsonl",
+  "page_scores_path": "/cluster/home/zengy/quality-constrained-kv-page-mapping/runs/protect_close_feat_v1/page_scores.jsonl",
+  "bucket_fixed_order": [
+    "earlier_history",
+    "first_token_page",
+    "recent_closed"
+  ],
+  "k_rule": "k = max(1, ceil(frac * n_pages)) for frac>0; none -> k=0",
+  "metric": "residual S under joint quant of unprotected closed pages; chunk-matched FP baseline",
+  "recovery": "1 - S_strategy/S_none when S_none>0 (computed on means)",
+  "random_seed": 20261105,
+  "N_prefix_frozen": 32,
+  "compare_to": [
+    "protect_strategy_v1",
+    "protect_close_feat_v1",
+    "pilot_multipage_v1"
+  ],
+  "smoke": false
+}

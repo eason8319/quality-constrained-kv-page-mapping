@@ -1,0 +1,1021 @@
+[
+  {
+    "prefix_id": "nr000",
+    "shared_len": 768,
+    "page_a": [
+      0,
+      64
+    ],
+    "page_b": [
+      128,
+      192
+    ],
+    "t_page_end_a": 63,
+    "t_page_end_b": 191,
+    "ans_jia_ids": [
+      34,
+      3143,
+      9851,
+      47,
+      1831
+    ],
+    "ans_yi_ids": [
+      3910,
+      1741,
+      16688,
+      33,
+      3097
+    ],
+    "fact_a": "COPPERPOT",
+    "fact_b": "GLACIERBAY",
+    "swap_labels": false,
+    "n_trailing_pages": 9,
+    "page_a_index": 0,
+    "page_b_index": 2
+  },
+  {
+    "prefix_id": "nr001",
+    "shared_len": 896,
+    "page_a": [
+      64,
+      128
+    ],
+    "page_b": [
+      256,
+      320
+    ],
+    "t_page_end_a": 127,
+    "t_page_end_b": 319,
+    "ans_jia_ids": [
+      54,
+      1750,
+      9628,
+      56606
+    ],
+    "ans_yi_ids": [
+      46,
+      2152,
+      1111,
+      1341
+    ],
+    "fact_a": "WILLOWISP",
+    "fact_b": "OCEANIC",
+    "swap_labels": false,
+    "n_trailing_pages": 9,
+    "page_a_index": 1,
+    "page_b_index": 4
+  },
+  {
+    "prefix_id": "nr002",
+    "shared_len": 1024,
+    "page_a": [
+      320,
+      384
+    ],
+    "page_b": [
+      576,
+      640
+    ],
+    "t_page_end_a": 383,
+    "t_page_end_b": 639,
+    "ans_jia_ids": [
+      5876,
+      3065,
+      57,
+      6119
+    ],
+    "ans_yi_ids": [
+      13396,
+      715,
+      53967,
+      3669
+    ],
+    "fact_a": "QUARTZITE",
+    "fact_b": "BRONZEAGE",
+    "swap_labels": false,
+    "n_trailing_pages": 6,
+    "page_a_index": 5,
+    "page_b_index": 9
+  },
+  {
+    "prefix_id": "nr003",
+    "shared_len": 1152,
+    "page_a": [
+      576,
+      640
+    ],
+    "page_b": [
+      0,
+      64
+    ],
+    "t_page_end_a": 639,
+    "t_page_end_b": 63,
+    "ans_jia_ids": [
+      82355,
+      43,
+      54,
+      9682
+    ],
+    "ans_yi_ids": [
+      44,
+      3931,
+      56,
+      13114,
+      877
+    ],
+    "fact_a": "PEARLWAVE",
+    "fact_b": "MISTYVALE",
+    "swap_labels": false,
+    "n_trailing_pages": 8,
+    "page_a_index": 9,
+    "page_b_index": 0
+  },
+  {
+    "prefix_id": "nr004",
+    "shared_len": 1280,
+    "page_a": [
+      1024,
+      1088
+    ],
+    "page_b": [
+      1152,
+      1216
+    ],
+    "t_page_end_a": 1087,
+    "t_page_end_b": 1215,
+    "ans_jia_ids": [
+      35,
+      9272,
+      39,
+      878,
+      937
+    ],
+    "ans_yi_ids": [
+      60686,
+      11855,
+      1428
+    ],
+    "fact_a": "DARKHORSE",
+    "fact_b": "LIGHTBEAM",
+    "swap_labels": false,
+    "n_trailing_pages": 1,
+    "page_a_index": 16,
+    "page_b_index": 18
+  },
+  {
+    "prefix_id": "nr005",
+    "shared_len": 768,
+    "page_a": [
+      0,
+      64
+    ],
+    "page_b": [
+      192,
+      256
+    ],
+    "t_page_end_a": 63,
+    "t_page_end_b": 255,
+    "ans_jia_ids": [
+      57054,
+      10754,
+      1242
+    ],
+    "ans_yi_ids": [
+      20484,
+      964,
+      5288,
+      946
+    ],
+    "fact_a": "GREENMOSS",
+    "fact_b": "WHITESTAR",
+    "swap_labels": false,
+    "n_trailing_pages": 8,
+    "page_a_index": 0,
+    "page_b_index": 3
+  },
+  {
+    "prefix_id": "nr006",
+    "shared_len": 896,
+    "page_a": [
+      64,
+      128
+    ],
+    "page_b": [
+      320,
+      384
+    ],
+    "t_page_end_a": 127,
+    "t_page_end_b": 383,
+    "ans_jia_ids": [
+      58257,
+      54,
+      87116
+    ],
+    "ans_yi_ids": [
+      47,
+      11898,
+      51,
+      1112,
+      3378
+    ],
+    "fact_a": "GRAYWOLF",
+    "fact_b": "PINKTULIP",
+    "swap_labels": false,
+    "n_trailing_pages": 8,
+    "page_a_index": 1,
+    "page_b_index": 5
+  },
+  {
+    "prefix_id": "nr007",
+    "shared_len": 1024,
+    "page_a": [
+      320,
+      384
+    ],
+    "page_b": [
+      832,
+      896
+    ],
+    "t_page_end_a": 383,
+    "t_page_end_b": 895,
+    "ans_jia_ids": [
+      878,
+      11762,
+      1777,
+      2818
+    ],
+    "ans_yi_ids": [
+      53,
+      3895,
+      877,
+      2434,
+      3097
+    ],
+    "fact_a": "ORANGEPEEL",
+    "fact_b": "VIOLETRAY",
+    "swap_labels": false,
+    "n_trailing_pages": 2,
+    "page_a_index": 5,
+    "page_b_index": 13
+  },
+  {
+    "prefix_id": "nr008",
+    "shared_len": 1152,
+    "page_a": [
+      576,
+      640
+    ],
+    "page_b": [
+      704,
+      768
+    ],
+    "t_page_end_a": 639,
+    "t_page_end_b": 767,
+    "ans_jia_ids": [
+      35625,
+      1111,
+      12420
+    ],
+    "ans_yi_ids": [
+      1428,
+      9745,
+      41,
+      4122
+    ],
+    "fact_a": "CYANIDE",
+    "fact_b": "AMBERJACK",
+    "swap_labels": false,
+    "n_trailing_pages": 6,
+    "page_a_index": 9,
+    "page_b_index": 11
+  },
+  {
+    "prefix_id": "nr009",
+    "shared_len": 1280,
+    "page_a": [
+      1024,
+      1088
+    ],
+    "page_b": [
+      1216,
+      1280
+    ],
+    "t_page_end_a": 1087,
+    "t_page_end_b": 1279,
+    "ans_jia_ids": [
+      3166,
+      7668,
+      51,
+      20491
+    ],
+    "ans_yi_ids": [
+      61761,
+      1953,
+      8021
+    ],
+    "fact_a": "IVORYTOWER",
+    "fact_b": "MARIGOLD",
+    "swap_labels": false,
+    "n_trailing_pages": 0,
+    "page_a_index": 16,
+    "page_b_index": 19
+  },
+  {
+    "prefix_id": "nr010",
+    "shared_len": 768,
+    "page_a": [
+      0,
+      64
+    ],
+    "page_b": [
+      256,
+      320
+    ],
+    "t_page_end_a": 63,
+    "t_page_end_b": 319,
+    "ans_jia_ids": [
+      17455,
+      57,
+      2818,
+      45,
+      1406
+    ],
+    "ans_yi_ids": [
+      54,
+      984,
+      45,
+      1406,
+      50,
+      69658
+    ],
+    "fact_a": "HAZELNUT",
+    "fact_b": "WALNUTSHELL",
+    "swap_labels": false,
+    "n_trailing_pages": 7,
+    "page_a_index": 0,
+    "page_b_index": 4
+  },
+  {
+    "prefix_id": "nr011",
+    "shared_len": 896,
+    "page_a": [
+      64,
+      128
+    ],
+    "page_b": [
+      512,
+      576
+    ],
+    "t_page_end_a": 127,
+    "t_page_end_b": 575,
+    "ans_jia_ids": [
+      44893,
+      790,
+      45,
+      1406
+    ],
+    "ans_yi_ids": [
+      984,
+      22053,
+      35,
+      27237,
+      56
+    ],
+    "fact_a": "CHESTNUT",
+    "fact_b": "ALMONDJOY",
+    "swap_labels": false,
+    "n_trailing_pages": 5,
+    "page_a_index": 1,
+    "page_b_index": 8
+  },
+  {
+    "prefix_id": "nr012",
+    "shared_len": 1024,
+    "page_a": [
+      320,
+      384
+    ],
+    "page_b": [
+      448,
+      512
+    ],
+    "t_page_end_a": 383,
+    "t_page_end_b": 511,
+    "ans_jia_ids": [
+      11183,
+      1111,
+      1932,
+      36
+    ],
+    "ans_yi_ids": [
+      88616,
+      1837,
+      38019,
+      1406
+    ],
+    "fact_a": "PECANPIE",
+    "fact_b": "CASHEWNUT",
+    "swap_labels": false,
+    "n_trailing_pages": 8,
+    "page_a_index": 5,
+    "page_b_index": 7
+  },
+  {
+    "prefix_id": "nr013",
+    "shared_len": 1152,
+    "page_a": [
+      576,
+      640
+    ],
+    "page_b": [
+      768,
+      832
+    ],
+    "t_page_end_a": 639,
+    "t_page_end_b": 831,
+    "ans_jia_ids": [
+      1932,
+      790,
+      12137,
+      3895
+    ],
+    "ans_yi_ids": [
+      26873,
+      1846,
+      1428,
+      5987
+    ],
+    "fact_a": "PISTACHIO",
+    "fact_b": "MACADAMIA",
+    "swap_labels": false,
+    "n_trailing_pages": 5,
+    "page_a_index": 9,
+    "page_b_index": 12
+  },
+  {
+    "prefix_id": "nr014",
+    "shared_len": 1280,
+    "page_a": [
+      1024,
+      1088
+    ],
+    "page_b": [
+      0,
+      64
+    ],
+    "t_page_end_a": 1087,
+    "t_page_end_b": 63,
+    "ans_jia_ids": [
+      41,
+      1899,
+      3378,
+      643
+    ],
+    "ans_yi_ids": [
+      63156,
+      946,
+      87166
+    ],
+    "fact_a": "JUNIPER",
+    "fact_b": "CEDARWOOD",
+    "swap_labels": false,
+    "n_trailing_pages": 3,
+    "page_a_index": 16,
+    "page_b_index": 0
+  },
+  {
+    "prefix_id": "nr015",
+    "shared_len": 768,
+    "page_a": [
+      0,
+      64
+    ],
+    "page_b": [
+      384,
+      448
+    ],
+    "t_page_end_a": 63,
+    "t_page_end_b": 447,
+    "ans_jia_ids": [
+      4695,
+      37103,
+      2152,
+      33,
+      4760
+    ],
+    "ans_yi_ids": [
+      37,
+      2871,
+      4031,
+      1507,
+      877
+    ],
+    "fact_a": "SPRUCEBUD",
+    "fact_b": "FIRNEEDLE",
+    "swap_labels": false,
+    "n_trailing_pages": 5,
+    "page_a_index": 0,
+    "page_b_index": 6
+  },
+  {
+    "prefix_id": "nr016",
+    "shared_len": 896,
+    "page_a": [
+      64,
+      128
+    ],
+    "page_b": [
+      192,
+      256
+    ],
+    "t_page_end_a": 127,
+    "t_page_end_b": 255,
+    "ans_jia_ids": [
+      60744,
+      18961,
+      6731
+    ],
+    "ans_yi_ids": [
+      33,
+      2871,
+      2198,
+      33,
+      9272
+    ],
+    "fact_a": "YEWTREE",
+    "fact_b": "BIRCHBARK",
+    "swap_labels": false,
+    "n_trailing_pages": 10,
+    "page_a_index": 1,
+    "page_b_index": 3
+  },
+  {
+    "prefix_id": "nr017",
+    "shared_len": 1024,
+    "page_a": [
+      320,
+      384
+    ],
+    "page_b": [
+      512,
+      576
+    ],
+    "t_page_end_a": 383,
+    "t_page_end_b": 575,
+    "ans_jia_ids": [
+      66204,
+      965,
+      877,
+      8440
+    ],
+    "ans_yi_ids": [
+      2818,
+      8673,
+      6731
+    ],
+    "fact_a": "ASPENLEAF",
+    "fact_b": "ELMTREE",
+    "swap_labels": false,
+    "n_trailing_pages": 7,
+    "page_a_index": 5,
+    "page_b_index": 8
+  },
+  {
+    "prefix_id": "nr018",
+    "shared_len": 1152,
+    "page_a": [
+      576,
+      640
+    ],
+    "page_b": [
+      832,
+      896
+    ],
+    "t_page_end_a": 639,
+    "t_page_end_b": 895,
+    "ans_jia_ids": [
+      46,
+      12173,
+      34165,
+      50151
+    ],
+    "ans_yi_ids": [
+      9729,
+      87166
+    ],
+    "fact_a": "OAKBARREL",
+    "fact_b": "ASHWOOD",
+    "swap_labels": false,
+    "n_trailing_pages": 4,
+    "page_a_index": 9,
+    "page_b_index": 13
+  },
+  {
+    "prefix_id": "nr019",
+    "shared_len": 1280,
+    "page_a": [
+      1024,
+      1088
+    ],
+    "page_b": [
+      384,
+      448
+    ],
+    "t_page_end_a": 1087,
+    "t_page_end_b": 447,
+    "ans_jia_ids": [
+      2505,
+      12173,
+      87166
+    ],
+    "ans_yi_ids": [
+      4940,
+      39,
+      12501,
+      17742
+    ],
+    "fact_a": "TEAKWOOD",
+    "fact_b": "MAHOGANY",
+    "swap_labels": false,
+    "n_trailing_pages": 3,
+    "page_a_index": 16,
+    "page_b_index": 6
+  },
+  {
+    "prefix_id": "nr020",
+    "shared_len": 768,
+    "page_a": [
+      0,
+      64
+    ],
+    "page_b": [
+      128,
+      192
+    ],
+    "t_page_end_a": 63,
+    "t_page_end_b": 191,
+    "ans_jia_ids": [
+      79099,
+      87166
+    ],
+    "ans_yi_ids": [
+      49,
+      19323,
+      33,
+      16395
+    ],
+    "fact_a": "APPLEWOOD",
+    "fact_b": "RIVERBANK",
+    "swap_labels": false,
+    "n_trailing_pages": 9,
+    "page_a_index": 0,
+    "page_b_index": 2
+  },
+  {
+    "prefix_id": "nr021",
+    "shared_len": 896,
+    "page_a": [
+      64,
+      128
+    ],
+    "page_b": [
+      256,
+      320
+    ],
+    "t_page_end_a": 127,
+    "t_page_end_b": 319,
+    "ans_jia_ids": [
+      50,
+      1750,
+      3848,
+      46,
+      12173
+    ],
+    "ans_yi_ids": [
+      10754,
+      715,
+      94971
+    ],
+    "fact_a": "SILVEROAK",
+    "fact_b": "MOONSTONE",
+    "swap_labels": false,
+    "n_trailing_pages": 9,
+    "page_a_index": 1,
+    "page_b_index": 4
+  },
+  {
+    "prefix_id": "nr022",
+    "shared_len": 1024,
+    "page_a": [
+      320,
+      384
+    ],
+    "page_b": [
+      576,
+      640
+    ],
+    "t_page_end_a": 383,
+    "t_page_end_b": 639,
+    "ans_jia_ids": [
+      53420,
+      984,
+      6731,
+      37
+    ],
+    "ans_yi_ids": [
+      54194,
+      32002,
+      11010
+    ],
+    "fact_a": "CORALREEF",
+    "fact_b": "IRONFORGE",
+    "swap_labels": false,
+    "n_trailing_pages": 6,
+    "page_a_index": 5,
+    "page_b_index": 9
+  },
+  {
+    "prefix_id": "nr023",
+    "shared_len": 1152,
+    "page_a": [
+      576,
+      640
+    ],
+    "page_b": [
+      0,
+      64
+    ],
+    "t_page_end_a": 639,
+    "t_page_end_b": 63,
+    "ans_jia_ids": [
+      41,
+      33941,
+      73339,
+      965
+    ],
+    "ans_yi_ids": [
+      790,
+      4463,
+      1777,
+      12173
+    ],
+    "fact_a": "JADEHAVEN",
+    "fact_b": "STORMPEAK",
+    "swap_labels": false,
+    "n_trailing_pages": 8,
+    "page_a_index": 9,
+    "page_b_index": 0
+  },
+  {
+    "prefix_id": "nr024",
+    "shared_len": 1280,
+    "page_a": [
+      1024,
+      1088
+    ],
+    "page_b": [
+      1152,
+      1216
+    ],
+    "t_page_end_a": 1087,
+    "t_page_end_b": 1215,
+    "ans_jia_ids": [
+      38,
+      8021,
+      965,
+      1308,
+      35
+    ],
+    "ans_yi_ids": [
+      54,
+      16321,
+      93756
+    ],
+    "fact_a": "GOLDENROD",
+    "fact_b": "WINTERFOX",
+    "swap_labels": false,
+    "n_trailing_pages": 1,
+    "page_a_index": 16,
+    "page_b_index": 18
+  },
+  {
+    "prefix_id": "nr025",
+    "shared_len": 768,
+    "page_a": [
+      0,
+      64
+    ],
+    "page_b": [
+      192,
+      256
+    ],
+    "t_page_end_a": 63,
+    "t_page_end_b": 255,
+    "ans_jia_ids": [
+      18082,
+      877,
+      877,
+      8440
+    ],
+    "ans_yi_ids": [
+      3701,
+      82491,
+      33,
+      3097
+    ],
+    "fact_a": "MAPLELEAF",
+    "fact_b": "THUNDERBAY",
+    "swap_labels": false,
+    "n_trailing_pages": 8,
+    "page_a_index": 0,
+    "page_b_index": 3
+  },
+  {
+    "prefix_id": "nr026",
+    "shared_len": 896,
+    "page_a": [
+      64,
+      128
+    ],
+    "page_b": [
+      320,
+      384
+    ],
+    "t_page_end_a": 127,
+    "t_page_end_b": 383,
+    "ans_jia_ids": [
+      36562,
+      790,
+      984,
+      4069
+    ],
+    "ans_yi_ids": [
+      79175,
+      37,
+      4006
+    ],
+    "fact_a": "CRYSTALINE",
+    "fact_b": "EMBERFALL",
+    "swap_labels": false,
+    "n_trailing_pages": 8,
+    "page_a_index": 1,
+    "page_b_index": 5
+  },
+  {
+    "prefix_id": "nr027",
+    "shared_len": 1024,
+    "page_a": [
+      320,
+      384
+    ],
+    "page_b": [
+      832,
+      896
+    ],
+    "t_page_end_a": 383,
+    "t_page_end_b": 895,
+    "ans_jia_ids": [
+      45,
+      4735,
+      8758,
+      33941
+    ],
+    "ans_yi_ids": [
+      65430,
+      3087,
+      715
+    ],
+    "fact_a": "NIGHTSHADE",
+    "fact_b": "BLUEHERON",
+    "swap_labels": false,
+    "n_trailing_pages": 2,
+    "page_a_index": 5,
+    "page_b_index": 13
+  },
+  {
+    "prefix_id": "nr028",
+    "shared_len": 1152,
+    "page_a": [
+      576,
+      640
+    ],
+    "page_b": [
+      704,
+      768
+    ],
+    "t_page_end_a": 639,
+    "t_page_end_b": 767,
+    "ans_jia_ids": [
+      50,
+      4064,
+      1932,
+      9851
+    ],
+    "ans_yi_ids": [
+      37,
+      1308,
+      790,
+      33,
+      6119
+    ],
+    "fact_a": "SANDPIPER",
+    "fact_b": "FROSTBITE",
+    "swap_labels": false,
+    "n_trailing_pages": 6,
+    "page_a_index": 9,
+    "page_b_index": 11
+  },
+  {
+    "prefix_id": "nr029",
+    "shared_len": 1280,
+    "page_a": [
+      1024,
+      1088
+    ],
+    "page_b": [
+      1216,
+      1280
+    ],
+    "t_page_end_a": 1087,
+    "t_page_end_b": 1279,
+    "ans_jia_ids": [
+      50,
+      1899,
+      47160,
+      643
+    ],
+    "ans_yi_ids": [
+      47,
+      4069,
+      34,
+      5338
+    ],
+    "fact_a": "SUNFLOWER",
+    "fact_b": "PINECONE",
+    "swap_labels": false,
+    "n_trailing_pages": 0,
+    "page_a_index": 16,
+    "page_b_index": 19
+  },
+  {
+    "prefix_id": "nr030",
+    "shared_len": 768,
+    "page_a": [
+      0,
+      64
+    ],
+    "page_b": [
+      256,
+      320
+    ],
+    "t_page_end_a": 63,
+    "t_page_end_b": 319,
+    "ans_jia_ids": [
+      6641,
+      87166,
+      50
+    ],
+    "ans_yi_ids": [
+      63949,
+      33,
+      46280
+    ],
+    "fact_a": "REDWOODS",
+    "fact_b": "BLACKBIRD",
+    "swap_labels": false,
+    "n_trailing_pages": 7,
+    "page_a_index": 0,
+    "page_b_index": 4
+  },
+  {
+    "prefix_id": "nr031",
+    "shared_len": 896,
+    "page_a": [
+      64,
+      128
+    ],
+    "page_b": [
+      512,
+      576
+    ],
+    "t_page_end_a": 127,
+    "t_page_end_b": 575,
+    "ans_jia_ids": [
+      68161,
+      37,
+      16849
+    ],
+    "ans_yi_ids": [
+      39,
+      55753,
+      8867,
+      33
+    ],
+    "fact_a": "STARFISH",
+    "fact_b": "HONEYCOMB",
+    "swap_labels": false,
+    "n_trailing_pages": 5,
+    "page_a_index": 1,
+    "page_b_index": 8
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "arm": "protect_multipage_fp_both_correct_subset",
+  "parent_run": "/cluster/home/zengy/quality-constrained-kv-page-mapping/runs/protect_multipage_nonretr_b2_v1",
+  "filter": {
+    "rule": "keep prefixes where FP both-correct gate passed; exclude gates.prefix_failures with reason=fp_not_both_correct",
+    "source": "parent summary.json gates.prefix_failures (verified against parent fp_both_correct_rate)",
+    "excluded_prefix_ids": [
+      "nr000",
+      "nr003",
+      "nr010",
+      "nr014",
+      "nr015",
+      "nr023"
+    ],
+    "kept_prefix_ids": [
+      "nr001",
+      "nr002",
+      "nr004",
+      "nr005",
+      "nr006",
+      "nr007",
+      "nr008",
+      "nr009",
+      "nr011",
+      "nr012",
+      "nr013",
+      "nr016",
+      "nr017",
+      "nr018",
+      "nr019",
+      "nr020",
+      "nr021",
+      "nr022",
+      "nr024",
+      "nr025",
+      "nr026",
+      "nr027",
+      "nr028",
+      "nr029",
+      "nr030",
+      "nr031"
+    ],
+    "n_prefixes_parent": 32,
+    "n_prefixes": 26,
+    "n_excluded": 6
+  },
+  "aggregation": "CPU re-pool of parent metrics.jsonl rows for kept prefixes only; same pooling as protect_multipage.py finalize",
+  "created_utc": "2026-11-06T09:09:19.213675+00:00",
+  "parent_b": 2,
+  "parent_template": "nonretr",
+  "strategies": [
+    "oracle_H",
+    "bucket",
+    "random",
+    "struct+content",
+    "none"
+  ],
+  "budgets": [
+    0.25,
+    0.5
+  ],
+  "intervenes": [
+    "kv"
+  ],
+  "note": "metrics/residuals not copied; filter applied at aggregate time. Lower S = better."
+}

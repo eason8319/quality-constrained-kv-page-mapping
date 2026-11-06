@@ -1,0 +1,19 @@
+{
+  "prefix_id": "p000",
+  "layer": 24,
+  "kv_head": 6,
+  "done_ckpts": 12,
+  "n_traj_written": 148,
+  "elapsed_s": 33.557905435562134,
+  "gate_stats": {
+    "hash_checks": 72,
+    "hash_fail": 0,
+    "fp_both_correct": 1,
+    "fp_checked": 1,
+    "zero_pert_checks": 2,
+    "zero_pert_fail": 0,
+    "manip_checks": 1,
+    "manip_pass": 0,
+    "prefix_failures": []
+  }
+}

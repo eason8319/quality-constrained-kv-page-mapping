@@ -1,0 +1,4 @@
+﻿protect_close_feat_v1 — page-close content features (range/scale/outlier) + protect A/B.
+Server: /cluster/home/zengy/quality-constrained-kv-page-mapping/runs/protect_close_feat_v1
+Script: experiments/page_paired_sensitivity/protect_close_features.py
+Synced: summary/design/README/extract_meta + script. Full jsonl stays on server (large).

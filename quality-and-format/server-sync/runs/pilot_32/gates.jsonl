@@ -1,0 +1,96 @@
+{"prefix_id": "p000", "gate": "manip", "pass": true, "rise_jia": 13.575614913643221, "stab_yi": 0.0036281089901422092, "nll_jia_orig": 0.001044765769620426, "nll_jia_manip": 13.576659679412842, "nll_yi_orig": 0.0007608588289258478, "nll_yi_manip": 0.004388967819068057}
+{"prefix_id": "p000", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p000", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p001", "gate": "manip", "pass": true, "rise_jia": 6.256749345904003, "stab_yi": 0.00011289350732113235, "nll_jia_orig": 0.0008447130070029137, "nll_jia_manip": 6.257594058911006, "nll_yi_orig": 0.0005895130538192461, "nll_yi_manip": 0.0007024065611403784}
+{"prefix_id": "p001", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p001", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p002", "gate": "manip", "pass": true, "rise_jia": 7.041485081391329, "stab_yi": 0.0011651978038571542, "nll_jia_orig": 0.00033200302914337954, "nll_jia_manip": 7.041817084420472, "nll_yi_orig": 0.0021081485156173585, "nll_yi_manip": 0.0032733463194745127}
+{"prefix_id": "p002", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p002", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p003", "gate": "manip", "pass": true, "rise_jia": 6.5289405647426975, "stab_yi": 0.003278173056060041, "nll_jia_orig": 0.0018280606955158873, "nll_jia_manip": 6.530768625438213, "nll_yi_orig": 0.00231603753491072, "nll_yi_manip": 0.005594210590970761}
+{"prefix_id": "p003", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p003", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p004", "gate": "manip", "pass": true, "rise_jia": 5.5693772703498325, "stab_yi": 0.00025967860892706085, "nll_jia_orig": 0.00012141465249442263, "nll_jia_manip": 5.569498685002327, "nll_yi_orig": 0.0004423700065672165, "nll_yi_manip": 0.0007020486154942773}
+{"prefix_id": "p004", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p004", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p005", "gate": "manip", "pass": true, "rise_jia": 8.781107381992001, "stab_yi": 0.00267192414321471, "nll_jia_orig": 0.0005274255946687845, "nll_jia_manip": 8.78163480758667, "nll_yi_orig": 0.00041036853144760244, "nll_yi_manip": 0.0030822926746623125}
+{"prefix_id": "p005", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p005", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p006", "gate": "manip", "pass": true, "rise_jia": 7.559600435922221, "stab_yi": 0.001862531539093955, "nll_jia_orig": 0.0011797880024460028, "nll_jia_manip": 7.560780223924667, "nll_yi_orig": 0.006090702310605896, "nll_yi_manip": 0.004228170771511941}
+{"prefix_id": "p006", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p006", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p007", "gate": "manip", "pass": true, "rise_jia": 9.14398703849459, "stab_yi": 1.6039039110182784e-06, "nll_jia_orig": 0.000552059450304417, "nll_jia_manip": 9.144539097944895, "nll_yi_orig": 0.0003484743410808733, "nll_yi_manip": 0.00035007824499189155}
+{"prefix_id": "p007", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p007", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p008", "gate": "manip", "pass": true, "rise_jia": 5.791236527738363, "stab_yi": 0.0010989728893036955, "nll_jia_orig": 0.0005549467082914816, "nll_jia_manip": 5.791791474446654, "nll_yi_orig": 0.0012066221534041688, "nll_yi_manip": 0.0023055950427078643}
+{"prefix_id": "p008", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p008", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p009", "gate": "manip", "pass": true, "rise_jia": 7.213246575960284, "stab_yi": 3.707120126250629e-05, "nll_jia_orig": 0.0009173681648917409, "nll_jia_manip": 7.2141639441251755, "nll_yi_orig": 0.00019063534384144987, "nll_yi_manip": 0.00022770654510395616}
+{"prefix_id": "p009", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p009", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p010", "gate": "manip", "pass": true, "rise_jia": 9.810864483969757, "stab_yi": 0.00019043270973876736, "nll_jia_orig": 0.0011920574731144977, "nll_jia_manip": 9.812056541442871, "nll_yi_orig": 0.00038598791797994636, "nll_yi_manip": 0.0005764206277187137}
+{"prefix_id": "p010", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p010", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p011", "gate": "manip", "pass": true, "rise_jia": 7.148238606444579, "stab_yi": 0.00038266471528913826, "nll_jia_orig": 0.0007240987187060455, "nll_jia_manip": 7.148962705163285, "nll_yi_orig": 0.0001937818785033111, "nll_yi_manip": 0.0005764465937924493}
+{"prefix_id": "p011", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p011", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p012", "gate": "manip", "pass": true, "rise_jia": 9.429260143673067, "stab_yi": 0.0005429289179422389, "nll_jia_orig": 0.016476622188444406, "nll_jia_manip": 9.445736765861511, "nll_yi_orig": 0.0009508630989027248, "nll_yi_manip": 0.0014937920168449637}
+{"prefix_id": "p012", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p012", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p013", "gate": "manip", "pass": true, "rise_jia": 6.979276310596287, "stab_yi": 0.00013800988199363928, "nll_jia_orig": 0.0001393803026076057, "nll_jia_manip": 6.979415690898895, "nll_yi_orig": 0.0005224205118793179, "nll_yi_manip": 0.0006604303938729572}
+{"prefix_id": "p013", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p013", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p014", "gate": "manip", "pass": true, "rise_jia": 9.176482613561348, "stab_yi": 0.0002917295806810216, "nll_jia_orig": 0.00017613601903576637, "nll_jia_manip": 9.176658749580383, "nll_yi_orig": 0.0005931449021545632, "nll_yi_manip": 0.0008848744828355848}
+{"prefix_id": "p014", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p014", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p015", "gate": "manip", "pass": true, "rise_jia": 7.69971974555142, "stab_yi": 0.00011110483990250941, "nll_jia_orig": 0.0009893692310924962, "nll_jia_manip": 7.700709114782512, "nll_yi_orig": 0.0007766485349520735, "nll_yi_manip": 0.0008877533748545829}
+{"prefix_id": "p015", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p015", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p016", "gate": "manip", "pass": true, "rise_jia": 8.131061801518626, "stab_yi": 0.013137823494071199, "nll_jia_orig": 0.004480451513700245, "nll_jia_manip": 8.135542253032327, "nll_yi_orig": 0.0006225436774911941, "nll_yi_manip": 0.013760367171562394}
+{"prefix_id": "p016", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p016", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p017", "gate": "manip", "pass": true, "rise_jia": 8.250563324559758, "stab_yi": 0.0002937571600796218, "nll_jia_orig": 0.00028979672091130243, "nll_jia_manip": 8.25085312128067, "nll_yi_orig": 0.0004341075819411344, "nll_yi_manip": 0.0001403504218615126}
+{"prefix_id": "p017", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p017", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p018", "gate": "manip", "pass": true, "rise_jia": 10.098187380341908, "stab_yi": 3.115333834102785e-05, "nll_jia_orig": 0.0007890728034377995, "nll_jia_manip": 10.098976453145346, "nll_yi_orig": 0.0007416756664042623, "nll_yi_manip": 0.0007728290047452901}
+{"prefix_id": "p018", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p018", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p019", "gate": "manip", "pass": true, "rise_jia": 6.837438012771053, "stab_yi": 0.0005601562191562455, "nll_jia_orig": 0.00016442675168946153, "nll_jia_manip": 6.837602439522743, "nll_yi_orig": 0.0014993181942675922, "nll_yi_manip": 0.0009391619751113467}
+{"prefix_id": "p019", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p019", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p020", "gate": "manip", "pass": true, "rise_jia": 7.937054153776444, "stab_yi": 0.0016825537237309617, "nll_jia_orig": 0.0002053601083389367, "nll_jia_manip": 7.937259513884783, "nll_yi_orig": 0.0034182522085757228, "nll_yi_manip": 0.001735698484844761}
+{"prefix_id": "p020", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p020", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p021", "gate": "manip", "pass": true, "rise_jia": 7.462857895367279, "stab_yi": 0.00456904245311307, "nll_jia_orig": 0.0018983252118687233, "nll_jia_manip": 7.464756220579147, "nll_yi_orig": 0.00655652874744798, "nll_yi_manip": 0.0019874862943349094}
+{"prefix_id": "p021", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p021", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p022", "gate": "manip", "pass": true, "rise_jia": 8.027179633654669, "stab_yi": 0.0029209975550656964, "nll_jia_orig": 0.00024809928981994744, "nll_jia_manip": 8.027427732944489, "nll_yi_orig": 0.011436104759468435, "nll_yi_manip": 0.014357102314534131}
+{"prefix_id": "p022", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p022", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p023", "gate": "manip", "pass": true, "rise_jia": 6.62525142211704, "stab_yi": 0.00039244204872375117, "nll_jia_orig": 0.0001835002478098128, "nll_jia_manip": 6.6254349223648505, "nll_yi_orig": 0.0012203334123114472, "nll_yi_manip": 0.0008278913635876961}
+{"prefix_id": "p023", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p023", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p024", "gate": "manip", "pass": true, "rise_jia": 5.5789438440890535, "stab_yi": 0.0008460880442726186, "nll_jia_orig": 0.0007073653785028, "nll_jia_manip": 5.579651209467556, "nll_yi_orig": 0.005499792036425788, "nll_yi_manip": 0.004653703992153169}
+{"prefix_id": "p024", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p024", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p025", "gate": "manip", "pass": true, "rise_jia": 7.701858235021291, "stab_yi": 0.015248049923911822, "nll_jia_orig": 0.0004075938265941659, "nll_jia_manip": 7.702265828847885, "nll_yi_orig": 0.004866789920697556, "nll_yi_manip": 0.020114839844609378}
+{"prefix_id": "p025", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p025", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p026", "gate": "manip", "pass": true, "rise_jia": 4.860681327447423, "stab_yi": 0.00021403614255177672, "nll_jia_orig": 0.00014723612355282967, "nll_jia_manip": 4.860828563570976, "nll_yi_orig": 0.0028024625830767036, "nll_yi_manip": 0.002588426440524927}
+{"prefix_id": "p026", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p026", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p027", "gate": "manip", "pass": true, "rise_jia": 10.848736441028601, "stab_yi": 0.0006134723583972601, "nll_jia_orig": 0.0010171772117549456, "nll_jia_manip": 10.849753618240356, "nll_yi_orig": 0.0001440570410959907, "nll_yi_manip": 0.0007575293994932508}
+{"prefix_id": "p027", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p027", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p028", "gate": "manip", "pass": true, "rise_jia": 7.02143729217205, "stab_yi": 0.0017824924754677343, "nll_jia_orig": 0.004411302135849837, "nll_jia_manip": 7.0258485943079, "nll_yi_orig": 0.004090734783676453, "nll_yi_manip": 0.002308242308208719}
+{"prefix_id": "p028", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p028", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p029", "gate": "manip", "pass": true, "rise_jia": 7.135161425827391, "stab_yi": 0.002314752093298012, "nll_jia_orig": 0.0002506473079847638, "nll_jia_manip": 7.135412073135376, "nll_yi_orig": 0.0058523650556405, "nll_yi_manip": 0.003537612962342488}
+{"prefix_id": "p029", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p029", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p030", "gate": "manip", "pass": true, "rise_jia": 9.35376134463695, "stab_yi": 4.460757675891125e-05, "nll_jia_orig": 0.13236222467276093, "nll_jia_manip": 9.486123569309711, "nll_yi_orig": 0.0008546137493491793, "nll_yi_manip": 0.0008992213261080906}
+{"prefix_id": "p030", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p030", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "p031", "gate": "manip", "pass": true, "rise_jia": 13.179276237186969, "stab_yi": 0.0003238638390712367, "nll_jia_orig": 0.0004417803911564988, "nll_jia_manip": 13.179718017578125, "nll_yi_orig": 0.0006823046795716436, "nll_yi_manip": 0.0003584408405004069}
+{"prefix_id": "p031", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "p031", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}

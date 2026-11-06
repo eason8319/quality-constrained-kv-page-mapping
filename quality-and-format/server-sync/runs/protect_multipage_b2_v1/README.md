@@ -1,0 +1,244 @@
+# protect_multipage_b2_v1 — equal-budget multi-page protect re-run
+
+True joint quant of unprotected closed pages; protected pages stay FP.
+Primary metric: residual mean S = 0.5*(S_jia+S_yi) vs chunk-matched FP.
+
+- template: retrieval
+- bits/group/L_p: 2/64/64
+- heads: [(10, 3), (2, 1), (22, 2), (22, 4), (24, 6)]
+- intervenes: ['kv']
+- strategies: ['oracle_H', 'bucket', 'random', 'struct+content', 'none']
+- budgets: [0.25, 0.5] (none runs once at budget=0)
+- elapsed_s: 732.8
+- n_metrics: 1440
+- stop_expand: False
+- gates: {"hash_equality_rate": 1.0, "hash_checks": 1440, "hash_fail": 0, "fp_both_correct_rate": 1.0, "fp_checked": 32, "zero_pert_pass_rate": 1.0, "zero_pert_checks": 8, "zero_pert_fail": 0, "missing_score_pages": 0, "prefix_failures": []}
+
+## Table (mean residual S)
+
+```
+{
+  "bucket|budget=0.25|kv": {
+    "n": 160,
+    "S_mean_mean": -0.00011125945184421523,
+    "S_mean_median": -2.073610346542409e-07,
+    "S_mean_p95": 0.0002893133789262951,
+    "S_jia_mean": -0.00020353869766470467,
+    "S_yi_mean": -1.8980206023725777e-05,
+    "S_key_mean_mean": -0.0005307360466872523,
+    "H_pos_mean_mean": 6.052427320700399e-05,
+    "mean_n_protect": 1.75,
+    "mean_n_quant": 3.875
+  },
+  "bucket|budget=0.5|kv": {
+    "n": 160,
+    "S_mean_mean": -0.0002215824431913719,
+    "S_mean_median": -2.7437356872421032e-06,
+    "S_mean_p95": 0.00019191480431118268,
+    "S_jia_mean": -0.0004340448111293682,
+    "S_yi_mean": -9.120075253375624e-06,
+    "S_key_mean_mean": -0.0009657634261657222,
+    "H_pos_mean_mean": 4.611892364320506e-05,
+    "mean_n_protect": 3.0,
+    "mean_n_quant": 2.625
+  },
+  "none|budget=0.0|kv": {
+    "n": 160,
+    "S_mean_mean": 1.6542221123089598e-05,
+    "S_mean_median": -1.910342736740252e-06,
+    "S_mean_p95": 0.0002967272620946946,
+    "S_jia_mean": 1.2844161758636114e-05,
+    "S_yi_mean": 2.024028048754308e-05,
+    "S_key_mean_mean": 3.9349458688775485e-05,
+    "H_pos_mean_mean": 0.0001626049192586502,
+    "mean_n_protect": 0.0,
+    "mean_n_quant": 5.625
+  },
+  "oracle_H|budget=0.25|kv": {
+    "n": 160,
+    "S_mean_mean": -0.00017276861096239085,
+    "S_mean_median": -4.8522609006340645e-06,
+    "S_mean_p95": 0.00018459460547092058,
+    "S_jia_mean": -0.0002388867285718277,
+    "S_yi_mean": -0.00010665049335295406,
+    "S_key_mean_mean": -0.0006150053995042981,
+    "H_pos_mean_mean": 4.1560598971785245e-05,
+    "mean_n_protect": 1.75,
+    "mean_n_quant": 3.875
+  },
+  "oracle_H|budget=0.5|kv": {
+    "n": 160,
+    "S_mean_mean": -0.00010556178120911143,
+    "S_mean_median": -1.2137335981302993e-05,
+    "S_mean_p95": 4.150786399179655e-05,
+    "S_jia_mean": -0.00011518833686745703,
+    "S_yi_mean": -9.59352255507658e-05,
+    "S_key_mean_mean": -0.00036192488024653355,
+    "H_pos_mean_mean": 1.4966332011292491e-05,
+    "mean_n_protect": 3.0,
+    "mean_n_quant": 2.625
+  },
+  "random|budget=0.25|kv": {
+    "n": 160,
+    "S_mean_mean": 0.00019990183184087702,
+    "S_mean_median": -1.8828820600447216e-06,
+    "S_mean_p95": 0.00021550489018352522,
+    "S_jia_mean": 0.00045275685953466655,
+    "S_yi_mean": -5.295319585291244e-05,
+    "S_key_mean_mean": 0.000812015577037073,
+    "H_pos_mean_mean": 0.00026826486076846713,
+    "mean_n_protect": 1.75,
+    "mean_n_quant": 3.875
+  },
+  "random|budget=0.5|kv": {
+    "n": 160,
+    "S_mean_mean": -2.2252024334150644e-05,
+    "S_mean_median": -2.8803797060087772e-06,
+    "S_mean_p95": 0.00014566044038019754,
+    "S_jia_mean": -6.3104439319279966e-06,
+    "S_yi_mean": -3.8193604736373274e-05,
+    "S_key_mean_mean": -0.0001129541374098153,
+    "H_pos_mean_mean": 4.004047771799673e-05,
+    "mean_n_protect": 3.0,
+    "mean_n_quant": 2.625
+  },
+  "struct+content|budget=0.25|kv": {
+    "n": 160,
+    "S_mean_mean": -0.00010706388319041398,
+    "S_mean_median": -3.5016498713957844e-06,
+    "S_mean_p95": 0.0002893133789262951,
+    "S_jia_mean": -0.00020635268420722495,
+    "S_yi_mean": -7.775082173602979e-06,
+    "S_key_mean_mean": -0.0004933303318580329,
+    "H_pos_mean_mean": 6.622016694791747e-05,
+    "mean_n_protect": 1.75,
+    "mean_n_quant": 3.875
+  },
+  "struct+content|budget=0.5|kv": {
+    "n": 160,
+    "S_mean_mean": -0.000221150298051113,
+    "S_mean_median": -1.7841527096607023e-06,
+    "S_mean_p95": 0.00023311051520750008,
+    "S_jia_mean": -0.00042863799880365154,
+    "S_yi_mean": -1.3662597298574528e-05,
+    "S_key_mean_mean": -0.0009528909841947097,
+    "H_pos_mean_mean": 4.84759629534004e-05,
+    "mean_n_protect": 3.0,
+    "mean_n_quant": 2.625
+  }
+}
+```
+
+## Recovery vs none
+
+```
+{
+  "oracle_H|budget=0.25|kv": {
+    "n_paired": 160,
+    "recovery_mean": 18.31230142563853,
+    "recovery_median": 0.9775527532860415,
+    "abs_S_reduction_mean": 0.00018931083208548045,
+    "S_strategy_mean": -0.00017276861096239085,
+    "S_none_mean": 1.6542221123089598e-05
+  },
+  "oracle_H|budget=0.5|kv": {
+    "n_paired": 160,
+    "recovery_mean": 1.6701031028827993,
+    "recovery_median": 1.0099234409055775,
+    "abs_S_reduction_mean": 0.00012210400233220102,
+    "S_strategy_mean": -0.00010556178120911143,
+    "S_none_mean": 1.6542221123089598e-05
+  },
+  "bucket|budget=0.25|kv": {
+    "n_paired": 160,
+    "recovery_mean": -11.476934336208322,
+    "recovery_median": 0.6633747878997551,
+    "abs_S_reduction_mean": 0.00012780167296730485,
+    "S_strategy_mean": -0.00011125945184421523,
+    "S_none_mean": 1.6542221123089598e-05
+  },
+  "bucket|budget=0.5|kv": {
+    "n_paired": 160,
+    "recovery_mean": -4.846133956325635,
+    "recovery_median": 0.9563330602965622,
+    "abs_S_reduction_mean": 0.0002381246643144615,
+    "S_strategy_mean": -0.0002215824431913719,
+    "S_none_mean": 1.6542221123089598e-05
+  },
+  "random|budget=0.25|kv": {
+    "n_paired": 160,
+    "recovery_mean": 3.2280737848174232,
+    "recovery_median": 0.39760173487990313,
+    "abs_S_reduction_mean": -0.0001833596107177874,
+    "S_strategy_mean": 0.00019990183184087702,
+    "S_none_mean": 1.6542221123089598e-05
+  },
+  "random|budget=0.5|kv": {
+    "n_paired": 160,
+    "recovery_mean": -1.8114712415098275,
+    "recovery_median": 0.9155525715805238,
+    "abs_S_reduction_mean": 3.879424545724023e-05,
+    "S_strategy_mean": -2.2252024334150644e-05,
+    "S_none_mean": 1.6542221123089598e-05
+  },
+  "struct+content|budget=0.25|kv": {
+    "n_paired": 160,
+    "recovery_mean": -11.274784921101755,
+    "recovery_median": 0.7771815745616553,
+    "abs_S_reduction_mean": 0.00012360610431350356,
+    "S_strategy_mean": -0.00010706388319041398,
+    "S_none_mean": 1.6542221123089598e-05
+  },
+  "struct+content|budget=0.5|kv": {
+    "n_paired": 160,
+    "recovery_mean": -6.764260929567965,
+    "recovery_median": 0.8566083202207099,
+    "abs_S_reduction_mean": 0.0002376925191742026,
+    "S_strategy_mean": -0.000221150298051113,
+    "S_none_mean": 1.6542221123089598e-05
+  }
+}
+```
+
+## Comparisons
+
+```
+{
+  "budget=0.25|kv": {
+    "S_none": 1.6542221123089598e-05,
+    "S_oracle_H": -0.00017276861096239085,
+    "S_bucket": -0.00011125945184421523,
+    "S_random": 0.00019990183184087702,
+    "S_struct+content": -0.00010706388319041398,
+    "oracle_beats_bucket": true,
+    "bucket_beats_random": true,
+    "struct_content_beats_random": true,
+    "oracle_beats_random": true,
+    "recovery_oracle": 18.31230142563853,
+    "recovery_bucket": -11.476934336208322,
+    "recovery_random": 3.2280737848174232,
+    "recovery_struct+content": -11.274784921101755
+  },
+  "budget=0.5|kv": {
+    "S_none": 1.6542221123089598e-05,
+    "S_oracle_H": -0.00010556178120911143,
+    "S_bucket": -0.0002215824431913719,
+    "S_random": -2.2252024334150644e-05,
+    "S_struct+content": -0.000221150298051113,
+    "oracle_beats_bucket": false,
+    "bucket_beats_random": true,
+    "struct_content_beats_random": true,
+    "oracle_beats_random": true,
+    "recovery_oracle": 1.6701031028827993,
+    "recovery_bucket": -4.846133956325635,
+    "recovery_random": -1.8114712415098275,
+    "recovery_struct+content": -6.764260929567965
+  }
+}
+```
+
+## Notes
+
+- oracle_H uses measured H from prior single-page page_harms (upper bound).
+- bucket / random / struct+content do not peek target H at selection time.
+- Offline H-coverage ≠ residual S under multi-page joint quant (this arm).

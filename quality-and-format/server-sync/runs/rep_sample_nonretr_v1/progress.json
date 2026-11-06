@@ -1,0 +1,12 @@
+{
+  "prefix_id": "nr031",
+  "done_ckpts": 7622,
+  "n_traj": 15180,
+  "elapsed_s": 3909.6096880435944,
+  "gate_stats": {
+    "hash_checks": 7590,
+    "hash_fail": 0,
+    "zero_pert_checks": 64,
+    "zero_pert_fail": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "exp_id": "protect_strategy_v1",
+  "cpu_only": true,
+  "reuse_page_harms": [
+    "runs/rep_sample_v1/page_harms.jsonl",
+    "runs/rep_sample_nonretr_v1/page_harms.jsonl"
+  ],
+  "model": "Llama-3.1-8B-Instruct (from source runs)",
+  "L_p": 64,
+  "g": 64,
+  "b": 4,
+  "n_prefix_per_template": 32,
+  "harm_def": "H_p = max(0,S_jia)+max(0,S_yi); coverage = selected pos-H / total pos-H",
+  "budget_fracs": [
+    0.05,
+    0.1,
+    0.2,
+    0.25,
+    0.5
+  ],
+  "mass_targets": [
+    0.5,
+    0.8,
+    0.95
+  ],
+  "strategies": [
+    "oracle_H",
+    "random",
+    "recency",
+    "bucket",
+    "bucket_loo",
+    "lh_band"
+  ],
+  "bucket_fixed_order": [
+    "earlier_history",
+    "first_token_page",
+    "recent_closed"
+  ],
+  "layer_bands": {
+    "early": "[0,11)",
+    "mid": "[11,22)",
+    "late": "[22,32)"
+  },
+  "random_n_draws": 20,
+  "random_seed": 20261105,
+  "no_peek": "heuristics do not use target-page measured H; oracle_H does",
+  "frozen_from_source_runs": {
+    "heads": [
+      [
+        10,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        22,
+        2
+      ],
+      [
+        22,
+        4
+      ],
+      [
+        24,
+        6
+      ]
+    ],
+    "intervenes": [
+      "k",
+      "v",
+      "kv"
+    ]
+  }
+}

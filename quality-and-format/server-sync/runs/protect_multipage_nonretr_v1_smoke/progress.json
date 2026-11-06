@@ -1,0 +1,17 @@
+{
+  "prefix_id": "nr000",
+  "done_ckpts": 5,
+  "n_traj": 10,
+  "n_metrics": 5,
+  "elapsed_s": 6.880644798278809,
+  "gate_stats": {
+    "hash_checks": 5,
+    "hash_fail": 0,
+    "fp_both_correct": 0,
+    "fp_checked": 1,
+    "zero_pert_checks": 2,
+    "zero_pert_fail": 0,
+    "empty_protect_ok": 0,
+    "missing_score_pages": 0
+  }
+}

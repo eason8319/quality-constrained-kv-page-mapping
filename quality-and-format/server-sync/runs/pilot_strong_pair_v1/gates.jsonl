@@ -1,0 +1,128 @@
+{"prefix_id": "sp000", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "VX9-MIRROR-LATTICE", "got": "VX9-MIRROR-LATTICE", "ok": true}, "yi": {"question": "yi", "expected": "QH4-CORAL-NEEDLE", "got": "QH4-CORAL-NEEDLE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 10}
+{"prefix_id": "sp000", "gate": "manip", "pass": true, "rise_jia": 4.730859409868821, "stab_yi": 8.642959458029508e-05, "nll_jia_orig": 1.4796652727078197e-05, "nll_jia_manip": 4.730874206521548, "nll_yi_orig": 2.3543219776911427e-05, "nll_yi_manip": 0.00010997281435720652}
+{"prefix_id": "sp000", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp000", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp001", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "ZT2-OBSIDIAN-QUILL", "got": "ZT2-OBSIDIAN-QUILL", "ok": true}, "yi": {"question": "yi", "expected": "RM7-AMBER-SCRIBE", "got": "RM7-AMBER-SCRIBE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 10, "ans_n_tok_yi": 7}
+{"prefix_id": "sp001", "gate": "manip", "pass": true, "rise_jia": 2.4612357317168745, "stab_yi": 4.258556067173102e-05, "nll_jia_orig": 8.088295683137404e-05, "nll_jia_manip": 2.4613166146737058, "nll_yi_orig": 8.714012332282956e-05, "nll_yi_manip": 0.00012972568399456058}
+{"prefix_id": "sp001", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp001", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp002", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "NK3-FROST-CIPHER", "got": "NK3-FROST-CIPHER", "ok": true}, "yi": {"question": "yi", "expected": "PL8-JADE-VECTOR", "got": "PL8-JADE-VECTOR", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 6}
+{"prefix_id": "sp002", "gate": "manip", "pass": true, "rise_jia": 5.183379163606788, "stab_yi": 1.072695321605959e-06, "nll_jia_orig": 1.3811024407419024e-05, "nll_jia_manip": 5.183392974631196, "nll_yi_orig": 2.960159595014981e-05, "nll_yi_manip": 2.8528900628543852e-05}
+{"prefix_id": "sp002", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp002", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp003", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "WC5-SILVER-DOCKET", "got": "WC5-SILVER-DOCKET", "ok": true}, "yi": {"question": "yi", "expected": "BN6-COPPER-INDEX", "got": "BN6-COPPER-INDEX", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 7}
+{"prefix_id": "sp003", "gate": "manip", "pass": true, "rise_jia": 4.4731321856829425, "stab_yi": 0.00039701823961227746, "nll_jia_orig": 8.855915669414571e-05, "nll_jia_manip": 4.473220744839637, "nll_yi_orig": 0.0005506958984174812, "nll_yi_manip": 0.00015367765880520374}
+{"prefix_id": "sp003", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp003", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp004", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "HS1-IVORY-SIGNAL", "got": "HS1-IVORY-SIGNAL", "ok": true}, "yi": {"question": "yi", "expected": "DJ0-ONYX-PROTOCOL", "got": "DJ0-ONYX-PROTOCOL", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 8}
+{"prefix_id": "sp004", "gate": "manip", "pass": true, "rise_jia": 4.635367010076704, "stab_yi": 7.031641271026956e-06, "nll_jia_orig": 1.2636019911432023e-05, "nll_jia_manip": 4.635379646096616, "nll_yi_orig": 4.664990608116426e-05, "nll_yi_manip": 5.368154735219122e-05}
+{"prefix_id": "sp004", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp004", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp005", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "FG2-PEARL-CHANNEL", "got": "FG2-PEARL-CHANNEL", "ok": true}, "yi": {"question": "yi", "expected": "TY4-RUBY-SEQUENCE", "got": "TY4-RUBY-SEQUENCE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 7}
+{"prefix_id": "sp005", "gate": "manip", "pass": true, "rise_jia": 3.864206327816256, "stab_yi": 5.695803781691211e-05, "nll_jia_orig": 7.170632034103619e-05, "nll_jia_manip": 3.864278034136597, "nll_yi_orig": 5.255141692422123e-05, "nll_yi_manip": 0.00010950945474113334}
+{"prefix_id": "sp005", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp005", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp006", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "UE8-TOPAZ-RECORD", "got": "UE8-TOPAZ-RECORD", "ok": true}, "yi": {"question": "yi", "expected": "IK7-EMERALD-TOKEN", "got": "IK7-EMERALD-TOKEN", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 8}
+{"prefix_id": "sp006", "gate": "manip", "pass": true, "rise_jia": 3.4360070837730206, "stab_yi": 1.445373001729422e-06, "nll_jia_orig": 0.00024310205013478026, "nll_jia_manip": 3.4362501858231553, "nll_yi_orig": 9.715419764688704e-06, "nll_yi_manip": 8.270046762959282e-06}
+{"prefix_id": "sp006", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp006", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp007", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "OA3-SAPPHIRE-KEY", "got": "OA3-SAPPHIRE-KEY", "ok": true}, "yi": {"question": "yi", "expected": "XV6-QUARTZ-BADGE", "got": "XV6-QUARTZ-BADGE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 10}
+{"prefix_id": "sp007", "gate": "manip", "pass": true, "rise_jia": 4.117985158342293, "stab_yi": 6.043416153289627e-06, "nll_jia_orig": 0.00012296181890292246, "nll_jia_manip": 4.118108120161196, "nll_yi_orig": 5.8252460553376296e-05, "nll_yi_manip": 5.220904440008667e-05}
+{"prefix_id": "sp007", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp007", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp008", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "LM9-GRANITE-CODE", "got": "LM9-GRANITE-CODE", "ok": true}, "yi": {"question": "yi", "expected": "CR1-MARBLE-PASS", "got": "CR1-MARBLE-PASS", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 7}
+{"prefix_id": "sp008", "gate": "manip", "pass": true, "rise_jia": 3.627706233336113, "stab_yi": 2.249541984562192e-05, "nll_jia_orig": 6.021181204118875e-05, "nll_jia_manip": 3.627766445148154, "nll_yi_orig": 1.4066494774819408e-05, "nll_yi_manip": 3.6561914620441325e-05}
+{"prefix_id": "sp008", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp008", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp009", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "PW2-BASALT-ID", "got": "PW2-BASALT-ID", "ok": true}, "yi": {"question": "yi", "expected": "KQ5-SLATE-HANDLE", "got": "KQ5-SLATE-HANDLE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 6, "ans_n_tok_yi": 8}
+{"prefix_id": "sp009", "gate": "manip", "pass": true, "rise_jia": 5.431175772913187, "stab_yi": 4.616911240873378e-06, "nll_jia_orig": 0.0006563822607669559, "nll_jia_manip": 5.431832155173955, "nll_yi_orig": 9.469396047734335e-05, "nll_yi_manip": 9.007704923646997e-05}
+{"prefix_id": "sp009", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp009", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp010", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "YN8-FLINT-LABEL", "got": "YN8-FLINT-LABEL", "ok": true}, "yi": {"question": "yi", "expected": "ZB4-SHALE-ENTRY", "got": "ZB4-SHALE-ENTRY", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 8}
+{"prefix_id": "sp010", "gate": "manip", "pass": true, "rise_jia": 4.423915896148531, "stab_yi": 0.10318502984432598, "nll_jia_orig": 8.532684338596093e-05, "nll_jia_manip": 4.424001222991917, "nll_yi_orig": 8.276600266299283e-05, "nll_yi_manip": 0.10326779584698897}
+{"prefix_id": "sp010", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp010", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp011", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "HT6-CHALK-REF", "got": "HT6-CHALK-REF", "ok": true}, "yi": {"question": "yi", "expected": "GE9-CORAL-BIND", "got": "GE9-CORAL-BIND", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 7}
+{"prefix_id": "sp011", "gate": "manip", "pass": true, "rise_jia": 2.0962412055020128, "stab_yi": 7.969722279962556e-06, "nll_jia_orig": 2.801318981125535e-05, "nll_jia_manip": 2.096269218691824, "nll_yi_orig": 2.2683314905894543e-05, "nll_yi_manip": 1.4713592625931987e-05}
+{"prefix_id": "sp011", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp011", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp012", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "US3-NICKEL-SLOT", "got": "US3-NICKEL-SLOT", "ok": true}, "yi": {"question": "yi", "expected": "VR7-CHROME-FILE", "got": "VR7-CHROME-FILE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 7}
+{"prefix_id": "sp012", "gate": "manip", "pass": true, "rise_jia": 3.0377620989900636, "stab_yi": 0.00029398924292373916, "nll_jia_orig": 3.334354893727972e-05, "nll_jia_manip": 3.037795442539001, "nll_yi_orig": 0.00032617455209609555, "nll_yi_manip": 3.2185309172356415e-05}
+{"prefix_id": "sp012", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp012", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp013", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "WX0-BRONZE-CARD", "got": "WX0-BRONZE-CARD", "ok": true}, "yi": {"question": "yi", "expected": "YL2-TIN-PACKET", "got": "YL2-TIN-PACKET", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 6}
+{"prefix_id": "sp013", "gate": "manip", "pass": true, "rise_jia": 4.819616210024313, "stab_yi": 5.84104342730522e-06, "nll_jia_orig": 5.8153543380155626e-05, "nll_jia_manip": 4.819674363567693, "nll_yi_orig": 1.7106270964480547e-05, "nll_yi_manip": 2.2947314391785767e-05}
+{"prefix_id": "sp013", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp013", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp014", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "ZM5-ZINC-SCROLL", "got": "ZM5-ZINC-SCROLL", "ok": true}, "yi": {"question": "yi", "expected": "AN1-LEAD-DOSSIER", "got": "AN1-LEAD-DOSSIER", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 9}
+{"prefix_id": "sp014", "gate": "manip", "pass": true, "rise_jia": 3.5464833412108447, "stab_yi": 1.3786989545078795e-05, "nll_jia_orig": 1.4170815845204743e-05, "nll_jia_manip": 3.54649751202669, "nll_yi_orig": 1.9735177114436436e-05, "nll_yi_manip": 3.352216665951523e-05}
+{"prefix_id": "sp014", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp014", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp015", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "BO4-IRON-MANIFEST", "got": "BO4-IRON-MANIFEST", "ok": true}, "yi": {"question": "yi", "expected": "CP8-STEEL-REGISTER", "got": "CP8-STEEL-REGISTER", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 7}
+{"prefix_id": "sp015", "gate": "manip", "pass": true, "rise_jia": 5.3706102646190175, "stab_yi": 9.143838756894448e-06, "nll_jia_orig": 0.00010452259185253101, "nll_jia_manip": 5.37071478721087, "nll_yi_orig": 3.162316277536904e-05, "nll_yi_manip": 4.076700153226349e-05}
+{"prefix_id": "sp015", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp015", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp016", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "DQ3-ALLOY-VOUCHER", "got": "DQ3-ALLOY-VOUCHER", "ok": true}, "yi": {"question": "yi", "expected": "ER6-TITAN-PERMIT", "got": "ER6-TITAN-PERMIT", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 10, "ans_n_tok_yi": 8}
+{"prefix_id": "sp016", "gate": "manip", "pass": true, "rise_jia": 3.3505065774925615, "stab_yi": 1.8029167364375098e-05, "nll_jia_orig": 3.43536577560144e-05, "nll_jia_manip": 3.3505409311503174, "nll_yi_orig": 3.033776462757487e-05, "nll_yi_manip": 4.836693199194997e-05}
+{"prefix_id": "sp016", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp016", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp017", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "FS9-COBALT-WARRANT", "got": "FS9-COBALT-WARRANT", "ok": true}, "yi": {"question": "yi", "expected": "GT2-NICKEL-CHARTER", "got": "GT2-NICKEL-CHARTER", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 9}
+{"prefix_id": "sp017", "gate": "manip", "pass": true, "rise_jia": 4.582797394406514, "stab_yi": 0.00018828934489710666, "nll_jia_orig": 5.616261989871418e-05, "nll_jia_manip": 4.582853557026413, "nll_yi_orig": 0.00031077748504534003, "nll_yi_manip": 0.00012248814014823337}
+{"prefix_id": "sp017", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp017", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp018", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "HU5-TIN-DECREE", "got": "HU5-TIN-DECREE", "ok": true}, "yi": {"question": "yi", "expected": "IV8-ZINC-BRIEF", "got": "IV8-ZINC-BRIEF", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 7}
+{"prefix_id": "sp018", "gate": "manip", "pass": true, "rise_jia": 4.694603088318875, "stab_yi": 8.164847979839709e-05, "nll_jia_orig": 0.00023819692977765174, "nll_jia_manip": 4.6948412852486525, "nll_yi_orig": 4.442708580297351e-05, "nll_yi_manip": 0.0001260755656013706}
+{"prefix_id": "sp018", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp018", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp019", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "JW1-LEAD-CITATION", "got": "JW1-LEAD-CITATION", "ok": true}, "yi": {"question": "yi", "expected": "KX4-IRON-ATTESTATION", "got": "KX4-IRON-ATTESTATION", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 9, "ans_n_tok_yi": 9}
+{"prefix_id": "sp019", "gate": "manip", "pass": true, "rise_jia": 3.746685339260043, "stab_yi": 2.688693281843118e-06, "nll_jia_orig": 4.342896251804026e-05, "nll_jia_manip": 3.746728768222561, "nll_yi_orig": 1.070223740700587e-05, "nll_yi_manip": 1.3390930688848988e-05}
+{"prefix_id": "sp019", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp019", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp020", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "VX9-MIRROR-LATTICE", "got": "VX9-MIRROR-LATTICE", "ok": true}, "yi": {"question": "yi", "expected": "QH4-CORAL-NEEDLE", "got": "QH4-CORAL-NEEDLE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 10}
+{"prefix_id": "sp020", "gate": "manip", "pass": true, "rise_jia": 5.083167552593907, "stab_yi": 1.0012168672801656e-06, "nll_jia_orig": 4.036573711996283e-05, "nll_jia_manip": 5.083207918331027, "nll_yi_orig": 1.9442466611963028e-05, "nll_yi_manip": 1.8441249744682862e-05}
+{"prefix_id": "sp020", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp020", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp021", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "ZT2-OBSIDIAN-QUILL", "got": "ZT2-OBSIDIAN-QUILL", "ok": true}, "yi": {"question": "yi", "expected": "RM7-AMBER-SCRIBE", "got": "RM7-AMBER-SCRIBE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 10, "ans_n_tok_yi": 7}
+{"prefix_id": "sp021", "gate": "manip", "pass": true, "rise_jia": 2.4242728603505728, "stab_yi": 1.4128570902422719e-05, "nll_jia_orig": 8.582456244994318e-05, "nll_jia_manip": 2.4243586849130225, "nll_yi_orig": 0.00010085853995990744, "nll_yi_manip": 0.00011498711086233016}
+{"prefix_id": "sp021", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp021", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp022", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "NK3-FROST-CIPHER", "got": "NK3-FROST-CIPHER", "ok": true}, "yi": {"question": "yi", "expected": "PL8-JADE-VECTOR", "got": "PL8-JADE-VECTOR", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 6}
+{"prefix_id": "sp022", "gate": "manip", "pass": true, "rise_jia": 5.244483027532008, "stab_yi": 2.9793520184284716e-07, "nll_jia_orig": 1.582047671584113e-05, "nll_jia_manip": 5.244498848008724, "nll_yi_orig": 2.6840228770197427e-05, "nll_yi_manip": 2.654229356835458e-05}
+{"prefix_id": "sp022", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp022", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp023", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "WC5-SILVER-DOCKET", "got": "WC5-SILVER-DOCKET", "ok": true}, "yi": {"question": "yi", "expected": "BN6-COPPER-INDEX", "got": "BN6-COPPER-INDEX", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 7}
+{"prefix_id": "sp023", "gate": "manip", "pass": true, "rise_jia": 4.512676706504017, "stab_yi": 0.00021030589492251499, "nll_jia_orig": 6.278828816874693e-05, "nll_jia_manip": 4.512739494792186, "nll_yi_orig": 0.00038385515186486633, "nll_yi_manip": 0.00017354925694235135}
+{"prefix_id": "sp023", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp023", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp024", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "HS1-IVORY-SIGNAL", "got": "HS1-IVORY-SIGNAL", "ok": true}, "yi": {"question": "yi", "expected": "DJ0-ONYX-PROTOCOL", "got": "DJ0-ONYX-PROTOCOL", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 8}
+{"prefix_id": "sp024", "gate": "manip", "pass": true, "rise_jia": 4.327796334946811, "stab_yi": 4.1386310972946205e-05, "nll_jia_orig": 1.973737658188059e-05, "nll_jia_manip": 4.327816072323393, "nll_yi_orig": 7.383951061878946e-05, "nll_yi_manip": 0.00011522582159173567}
+{"prefix_id": "sp024", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp024", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp025", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "FG2-PEARL-CHANNEL", "got": "FG2-PEARL-CHANNEL", "ok": true}, "yi": {"question": "yi", "expected": "TY4-RUBY-SEQUENCE", "got": "TY4-RUBY-SEQUENCE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 7}
+{"prefix_id": "sp025", "gate": "manip", "pass": true, "rise_jia": 3.8179999336557406, "stab_yi": 5.125741646289888e-05, "nll_jia_orig": 0.00010848089974351589, "nll_jia_manip": 3.818108414555484, "nll_yi_orig": 4.948656412904841e-05, "nll_yi_manip": 0.00010074398059194729}
+{"prefix_id": "sp025", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp025", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp026", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "UE8-TOPAZ-RECORD", "got": "UE8-TOPAZ-RECORD", "ok": true}, "yi": {"question": "yi", "expected": "IK7-EMERALD-TOKEN", "got": "IK7-EMERALD-TOKEN", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 8}
+{"prefix_id": "sp026", "gate": "manip", "pass": true, "rise_jia": 3.4203358518355316, "stab_yi": 2.980684143949475e-08, "nll_jia_orig": 0.00017629382973893826, "nll_jia_manip": 3.4205121456652705, "nll_yi_orig": 8.180647498079452e-06, "nll_yi_manip": 8.150840656639957e-06}
+{"prefix_id": "sp026", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp026", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp027", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "OA3-SAPPHIRE-KEY", "got": "OA3-SAPPHIRE-KEY", "ok": true}, "yi": {"question": "yi", "expected": "XV6-QUARTZ-BADGE", "got": "XV6-QUARTZ-BADGE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 10}
+{"prefix_id": "sp027", "gate": "manip", "pass": true, "rise_jia": 4.143728946360078, "stab_yi": 6.3518018997399435e-06, "nll_jia_orig": 8.273882222198381e-05, "nll_jia_manip": 4.1438116851823, "nll_yi_orig": 4.9396834307913194e-05, "nll_yi_manip": 5.574863620765314e-05}
+{"prefix_id": "sp027", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp027", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp028", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "LM9-GRANITE-CODE", "got": "LM9-GRANITE-CODE", "ok": true}, "yi": {"question": "yi", "expected": "CR1-MARBLE-PASS", "got": "CR1-MARBLE-PASS", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 8, "ans_n_tok_yi": 7}
+{"prefix_id": "sp028", "gate": "manip", "pass": true, "rise_jia": 3.3429465721177536, "stab_yi": 1.1750596351183561e-06, "nll_jia_orig": 7.153668921944245e-05, "nll_jia_manip": 3.343018108806973, "nll_yi_orig": 8.378657452924796e-06, "nll_yi_manip": 7.20359781780644e-06}
+{"prefix_id": "sp028", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp028", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp029", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "PW2-BASALT-ID", "got": "PW2-BASALT-ID", "ok": true}, "yi": {"question": "yi", "expected": "KQ5-SLATE-HANDLE", "got": "KQ5-SLATE-HANDLE", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 6, "ans_n_tok_yi": 8}
+{"prefix_id": "sp029", "gate": "manip", "pass": true, "rise_jia": 5.4798115133911365, "stab_yi": 1.3552022650742401e-06, "nll_jia_orig": 0.0004148919618387481, "nll_jia_manip": 5.480226405352975, "nll_yi_orig": 8.959984196366122e-05, "nll_yi_manip": 8.824463969858698e-05}
+{"prefix_id": "sp029", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp029", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp030", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "YN8-FLINT-LABEL", "got": "YN8-FLINT-LABEL", "ok": true}, "yi": {"question": "yi", "expected": "ZB4-SHALE-ENTRY", "got": "ZB4-SHALE-ENTRY", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 8}
+{"prefix_id": "sp030", "gate": "manip", "pass": true, "rise_jia": 4.405460362070178, "stab_yi": 0.08657018639452474, "nll_jia_orig": 0.0001099453686817599, "nll_jia_manip": 4.40557030743886, "nll_yi_orig": 9.818527145455391e-05, "nll_yi_manip": 0.0866683716659793}
+{"prefix_id": "sp030", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp030", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}
+{"prefix_id": "sp031", "gate": "free_gen", "pass": true, "jia": {"question": "jia", "expected": "HT6-CHALK-REF", "got": "HT6-CHALK-REF", "ok": true}, "yi": {"question": "yi", "expected": "GE9-CORAL-BIND", "got": "GE9-CORAL-BIND", "ok": true}, "fp_both_ok": true, "ans_n_tok_jia": 7, "ans_n_tok_yi": 7}
+{"prefix_id": "sp031", "gate": "manip", "pass": true, "rise_jia": 2.04497559398039, "stab_yi": 7.169360965722912e-06, "nll_jia_orig": 2.617416703287745e-05, "nll_jia_manip": 2.045001768147423, "nll_yi_orig": 2.193404257257368e-05, "nll_yi_manip": 1.4764681606850769e-05}
+{"prefix_id": "sp031", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "jia"}
+{"prefix_id": "sp031", "gate": "zero_pert", "pass": true, "S": 0.0, "S_key": 0.0, "q": "yi"}

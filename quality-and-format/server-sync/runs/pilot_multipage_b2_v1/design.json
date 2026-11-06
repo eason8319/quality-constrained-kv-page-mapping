@@ -1,0 +1,18 @@
+{
+  "template_family": "archive_alpha_beta_pilot",
+  "arm": "multipage_joint",
+  "variants": [
+    "AB",
+    "Aadj"
+  ],
+  "seed": 20261105,
+  "n_prefix": 32,
+  "L_p": 64,
+  "g": 64,
+  "b": 2,
+  "metric_def": {
+    "AB": "Joint quant of pages A+B. Report mean S_jia and S_yi (both fact pages perturbed). Classic paired D not applicable.",
+    "Aadj": "Joint quant of page A + one adjacent closed page (not B). Report S_jia (need A), S_yi (need-not A), gap=S_jia-S_yi."
+  },
+  "compare_to": "pilot_32 b=4 single-page D; pilot_b2_v1 if present"
+}
