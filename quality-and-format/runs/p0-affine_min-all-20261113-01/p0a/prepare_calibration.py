@@ -14,7 +14,7 @@ import yaml
 from transformers import AutoTokenizer
 
 root = Path.cwd()
-run = Path(__file__).resolve().parent
+run = Path(__file__).resolve().parents[1]
 raw = root / "data/raw"
 source = raw/"sources"
 split = root/"data/splits"

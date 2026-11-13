@@ -9,7 +9,7 @@ from pathlib import Path
 import html2text
 from bs4 import BeautifulSoup
 
-run = Path(__file__).resolve().parent
+run = Path(__file__).resolve().parents[1]
 ruler = Path("data/raw/sources/ruler")
 rev = "021385d68d3202e37893e9d3cd29011c569abe30"
 repo = ruler / "essay_repo.tar.gz"
