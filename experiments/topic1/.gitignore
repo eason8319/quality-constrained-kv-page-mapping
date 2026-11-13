@@ -1,0 +1,20 @@
+# 下载的数据与权重。保留 data/raw/README.md 作为放置说明。
+data/raw/**
+!data/raw/README.md
+data/cache/
+**/*.safetensors
+**/*.bin
+**/*.pt
+**/*.gguf
+
+# 一次运行的大文件。预登记、command.txt、notes.md 仍可提交
+runs/*/logs/
+runs/*/cache/
+runs/*/tmp/
+*.jsonl
+
+# 本地环境
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
