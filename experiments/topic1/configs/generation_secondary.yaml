@@ -1,0 +1,10 @@
+# 次协议只用于对照已发表的全精度分数，不作为「通过」判定。
+# 采样参数从模型卡原样抄入，不在这里发明 temperature 或 top_p。
+# 量化比较的主协议是贪心解码，不写在本文件里。
+protocol: secondary
+do_sample: true
+settings:
+  llama: null
+  qwen: null
+  r1qwen: null
+seeds: []
