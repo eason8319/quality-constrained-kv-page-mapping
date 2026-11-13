@@ -2,8 +2,6 @@
 
 课题 W：在线尺度确定与 KV 页写通路
 
-[返回总研究规划](../质量约束下低比特KV页联合映射-论文课题.md)
-
 本文件展开本课题的研究内容；共同约束与跨课题接口以总研究规划为准。调整本课题范围时，应同步更新总文档对应章节。
 
 ## 1. 核心问题
@@ -71,6 +69,6 @@ W 负责“数据如何到达、保留、重编码并写成合法页”。不研
 
 ## 相关课题
 
-- [Topic 1: Quality Characterization and Storage Formats for Low-Bit KV Cache Pages](../topic-1-quality-and-format/README.md)
-- [Topic 2: Attention Read Datapaths for Low-Bit KV Cache Pages](../topic-2-read-datapath/README.md)
-- [Topic 3: Quality-Constrained Joint Configuration Mapping at KV Page Closure](../topic-3-joint-mapping/README.md)
+- [Topic 1: Quality Characterization and Storage Formats for Low-Bit KV Cache Pages](../quality-and-format/README.md)
+- [Topic 2: Attention Read Datapaths for Low-Bit KV Cache Pages](../read-datapath/README.md)
+- [Topic 3: Quality-Constrained Joint Configuration Mapping at KV Page Closure](../joint-mapping/README.md)

@@ -2,8 +2,6 @@
 
 课题二：面向低比特 KV 页的注意力读通路
 
-[返回总研究规划](../质量约束下低比特KV页联合映射-论文课题.md)
-
 本文件展开本课题的研究内容；共同约束与跨课题接口以总研究规划为准。调整本课题范围时，应同步更新总文档对应章节。
 
 ## 1. 核心问题
@@ -67,6 +65,6 @@ softmax 的内部结构不作为研究贡献，但其精度与接口必须固定
 
 ## 相关课题
 
-- [Topic 1: Quality Characterization and Storage Formats for Low-Bit KV Cache Pages](../topic-1-quality-and-format/README.md)
-- [Topic W: Online Scale Determination and Write Datapaths for KV Cache Pages](../topic-w-write-datapath/README.md)
-- [Topic 3: Quality-Constrained Joint Configuration Mapping at KV Page Closure](../topic-3-joint-mapping/README.md)
+- [Topic 1: Quality Characterization and Storage Formats for Low-Bit KV Cache Pages](../quality-and-format/README.md)
+- [Topic W: Online Scale Determination and Write Datapaths for KV Cache Pages](../write-datapath/README.md)
+- [Topic 3: Quality-Constrained Joint Configuration Mapping at KV Page Closure](../joint-mapping/README.md)

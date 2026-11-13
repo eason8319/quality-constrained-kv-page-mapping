@@ -2,8 +2,6 @@
 
 课题三：页关闭时的质量约束联合映射
 
-[返回总研究规划](../质量约束下低比特KV页联合映射-论文课题.md)
-
 本文件展开本课题的研究内容；共同约束与跨课题接口以总研究规划为准。调整本课题范围时，应同步更新总文档对应章节。
 
 ## 1. 核心问题
@@ -67,6 +65,6 @@ W 是否独立发表不改变这项功能依赖。
 
 ## 相关课题
 
-- [Topic 1: Quality Characterization and Storage Formats for Low-Bit KV Cache Pages](../topic-1-quality-and-format/README.md)
-- [Topic 2: Attention Read Datapaths for Low-Bit KV Cache Pages](../topic-2-read-datapath/README.md)
-- [Topic W: Online Scale Determination and Write Datapaths for KV Cache Pages](../topic-w-write-datapath/README.md)
+- [Topic 1: Quality Characterization and Storage Formats for Low-Bit KV Cache Pages](../quality-and-format/README.md)
+- [Topic 2: Attention Read Datapaths for Low-Bit KV Cache Pages](../read-datapath/README.md)
+- [Topic W: Online Scale Determination and Write Datapaths for KV Cache Pages](../write-datapath/README.md)

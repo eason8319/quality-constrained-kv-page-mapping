@@ -1,0 +1,93 @@
+# 复制到 runs/<run_id>/。null、空列表和 <sha> 均须在 P2 填实或标明不可用原因。
+# 逐模型/任务的长表可填已提交的文件路径与 SHA-256。
+protocol_version: affine_min  # 实验规程标识，用于关联运行名、日志和预登记。
+models:
+  - meta-llama/Llama-3.1-8B-Instruct@0e9e39f249a16976918f6564b8830bc894c89659
+  - Qwen/Qwen2.5-7B-Instruct@a09a35458c702b33eeacc393d103063234e8bc28
+  - deepseek-ai/DeepSeek-R1-Distill-Qwen-7B@916b56a44061fd5cd7d6a8fb632557ed4f724f60
+data_manifest: configs/data_manifest.yaml
+split_seed: 17
+split_manifest_sha256: null
+page_length: 64
+primary_window_W: 128
+burst_bytes: 64
+scale_fmt_main: fp16
+quantization:
+  offset_fmt: fp16
+  group_metadata_bytes: {fp16: 4, bf16: 4, e8m0: 4}
+  bit_pairs: [[2, 2], [4, 4], [8, 8], [4, 2], [8, 4], [8, 2], [2, 4]]
+  groups: {K: [32, 64], V: [32, 64, 128]}
+  frozen_configs: null  # P2 提交实际子集列表，含任何裁减原因。
+  golden_tests_sha256: null
+generation:
+  primary: greedy
+  driver: shared_kv_cache
+  pilot_math_max_new_tokens: {llama: 2048, qwen: 2048, r1qwen: 8192}
+  pilot_longbench_max_new_tokens: {hotpotqa: 32, gov_report: 512, repobench-p: 64}
+  pilot_ruler_max_new_tokens: official_tokens_to_generate_by_subtask
+  max_new_tokens_by_model_task: null
+  prompt_stop_and_scorer_revisions: null
+  fp_reference_ranges_by_model_task: null
+  repetition: {max_tail_period_tokens: 32, min_repeats: 4, min_covered_tokens: 64}
+  math_alert_fraction: {repeated: 0.05, hit_length_cap: 0.05}
+batch:
+  reference: 1
+  alignment_cal_samples: 20
+  require_identical_generation_tokens_stops_scores: true
+  max_abs_fork_S_diff_nats_per_token: 0.00001
+  verified_batch_by_model_path: null
+panels:
+  tasks: [gsm8k, math500, longbench, ruler]
+  distribution_block: {model: llama, layers: all, heads: all, seq_per_task: 16, split: D_cal}
+  paired_panel: {split: D_cal, seq_per_task: 16, layer_head_pairs_per_model: 12}
+  selection_panel: {split: D_sel, seq_per_task: 16, layer_head_pairs_per_model: 12}
+  dtest_probe: {split: D_test, seq_per_task: 16, pages: [sink, recent, mid]}
+  page_origins: [prompt, answer]
+  sample_ids_layer_heads_pages_and_strata: null
+  sink_factorial: {target: K, V: original_bf16, bits: [2, 4], groups: [32, 64], reference: page0_8bit_K}
+labels:
+  reference: matched_fp_suffix_replay
+  null_control: original_bf16_page_writeback
+  pilot_repeats: {null_branch: 2, quantized_branch: 2}
+  candidate_trajectories: [gold, fp_greedy]
+  distribution_config_priority: [K4V4_g64, K2V2_g64]
+  trajectory_priority_within_config: [gold, fp_greedy]
+  noise_gate: {abs_signal_median_gt_abs_null_quantile: 0.95, repeat_spearman_ci_lower_gt: 0}
+  t_group: {K: [32, 64], V: [32, 128], bits: [2, 4], other_direction: bf16}
+  t_retrieval: {bucket: mid, config: K2V2_g64}
+  frozen_choices_and_coverage_by_model_task_target: null
+  pilot_noise_table: artifacts/pilot/pilot_label_noise.csv
+power:
+  pilot_split: D_cal
+  pilot_configs: [K8V8_g64, K4V4_g64, K2V2_g64]
+  ci_level_two_sided: 0.95
+  target_pass_probability_per_endpoint: 0.80
+  anticipated_drop: 0.0
+  bootstrap: {replicates: 2000, seed: 29, unit: independent_source_sample}
+  pilot_table: artifacts/pilot/pilot_paired_power.csv
+  frozen_n_and_precision_shortfalls_by_model_task: null
+budgets:
+  gsm8k_pp: 1.0
+  math500_pp: 1.5
+  longbench_pp: 1.0
+  ruler_pp: 1.0
+  macro_pp: 1.0
+  report_only: [aime2024, wikitext2]
+contrasts: [C1, C2, C3]
+allocations_formal: [S0_grid, S1, S2, S3]
+baseline_implementation_and_env_by_model: null
+panel_ilp:
+  comparisons: [S2, S3, S4]
+  objective: sum_single_page_S
+  budget: matched_to_comparator_actual_aligned_bytes
+  emit_task_scores: false
+  panel_ids_and_budgets: null
+s3_frozen_position_and_group_rules: null
+fitted_predictors_and_feature_list_sha256: null
+outlier_tau: null  # 8 或 32
+predictor_gap_gate: 0.8
+c2_min_useful_spearman_gain: 0.05
+local_attn_to_S_switch: 0.5
+c3_group_share_of_byte_savings: 0.5
+remote_gpu_environment_and_timing: environment.json  # P0a hardware and offline load; P1 timing pending.
+pilot_artifact_hashes: null

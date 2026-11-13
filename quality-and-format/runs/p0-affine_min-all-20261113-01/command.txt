@@ -1,0 +1,31 @@
+P0a / affine_min
+Server: myserver
+Working directory: /cluster/home/zengy/workspace/quality-and-format
+Local base commit: 3ca9091fde655784434a8570db7d9812831f16fd (working tree, see SHA256SUMS)
+Launch date: 2026-11-13 Asia/Shanghai. Slurm start/end times are recorded in slurm-jobs.txt.
+Run directory: runs/p0-affine_min-all-20261113-01
+
+# Run from the project directory on myserver. Existing staged raw sources are immutable inputs.
+PY=$HOME/.conda/envs/r1-kv-baseline/bin/python
+RUN=runs/p0-affine_min-all-20261113-01
+export HF_HUB_OFFLINE=1 TOKENIZERS_PARALLELISM=false
+export PYTHONPATH="$PWD/data/raw/p0a-packages"
+export NLTK_DATA="$PWD/data/raw/p0a-language"
+
+# Source-group audit and an independent reproduction (before adding derived ID lists).
+"$PY" tools/make_splits.py --seed 17 --manifest configs/data_manifest.yaml --audit-dir "$RUN"
+"$PY" tools/make_splits.py --seed 17 --manifest configs/data_manifest.yaml --output data/raw/p0a-repeat/splits --audit-dir data/raw/p0a-repeat/audit
+cmp "$RUN/source_index.tsv" data/raw/p0a-repeat/audit/source_index.tsv
+cmp "$RUN/split_audit.json" data/raw/p0a-repeat/audit/split_audit.json
+
+# Task input preparation (the essay script needs network only if the raw articles are absent).
+"$PY" "$RUN/prepare_essays.py"
+"$PY" "$RUN/verify_aime.py"
+srun -p gpu -c 2 --mem=3G -t 00:08:00 "$PY" "$RUN/prepare_calibration.py" wiki
+srun -p gpu -w node7 -c 4 --mem=12G -t 00:20:00 "$PY" -u "$RUN/prepare_calibration.py" ruler
+
+# GPU environment acceptance; one model is resident at a time.
+srun -p gpu -w node7 --gres=gpu:1 -c 4 --mem=24G -t 00:15:00 "$PY" "$RUN/verify_environment.py"
+
+# Verify the reviewed source code, manifests, split lists, and local/remote audit outputs.
+sha256sum -c "$RUN/SHA256SUMS"

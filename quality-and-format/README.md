@@ -2,8 +2,6 @@
 
 课题一：低比特 KV 页的质量特征与存储格式
 
-[返回总研究规划](../质量约束下低比特KV页联合映射-论文课题.md)
-
 本文件展开本课题的研究内容；共同约束与跨课题接口以总研究规划为准。调整本课题范围时，应同步更新总文档对应章节。
 
 ## 1. 核心问题
@@ -18,8 +16,8 @@
 2. **敏感度分布。** 分析层、头、页位置及上下文条件下的差异和稳定性。报告适用范围、例外与不确定性，不将某个模型的规律直接推广到所有模型。
 3. **可获得统计量的预测力。** 探索范围、离群计数和误差估计等候选量。与仅使用层、头、页位置的简单基线比较，确认额外统计的增益。预测特征只能来自决策时已经存在的信息。
 4. **理想离线混合分配。** 在固定的候选空间和明确的资源预算下，用离线敏感度构造分配参照，检验混合配置的收益空间。可利用未来信息的离线参照必须明确标注，不能作为可在线实现的策略。
-5. **配置筛选。** 将配置标记为“统一使用通过”“指定混合协议下通过”“在已测协议下未通过”；尚未验证的单列为待验证。记录测试覆盖、混合比例和选页规则，不把有限测试的失败解释为普遍不可用。
-6. **格式支撑。** 定义数据、尺度、零点及描述符布局，建立包含对齐浪费的字节与访存模型；实现参考打包与解包，以保证质量实验使用的配置可以表达。
+5. **配置筛选。** 记录统一通过、指定混合协议通过、已测失败、区间跨预算和未测五种状态，列明测试覆盖、混合比例和选页规则。
+6. **格式支撑。** 定义码字、尺度、组偏移及描述符布局，建立包含对齐填充的字节与访存模型。通过参考打包与解包验证质量实验使用的配置。
 
 候选统计量先在软件中验证。若某项统计需要保留原始高精度数据、多份候选表示或额外扫描，必须记录这一前提，供 W 核算成本。软件可以计算的量不自动视为低成本硬件统计。
 
@@ -43,9 +41,11 @@
 
 ## 实验指导
 
+实验分为八个阶段，见[阶段划分](课题一实验指导.md#17-执行顺序)。
+
 执行顺序、量化语义、页关闭分叉、划分和正式判定见 [课题一实验指导](课题一实验指导.md)。该文件是测量规程。机制推导和文献边界仍以 [页级量化敏感度、写入统计的预测力与混合配置空间](敏感度分布与混合配置空间.md) 为准。
 
-代码、配置、运行现场和正式汇总的目录约定见 [experiments/topic1](../experiments/topic1/README.md)。
+代码、配置、运行现场和正式汇总的目录约定见 [实验目录](实验目录.md)。
 
 ## 并行开展与交接
 
@@ -67,6 +67,6 @@
 
 ## 相关课题
 
-- [Topic 2: Attention Read Datapaths for Low-Bit KV Cache Pages](../topic-2-read-datapath/README.md)
-- [Topic W: Online Scale Determination and Write Datapaths for KV Cache Pages](../topic-w-write-datapath/README.md)
-- [Topic 3: Quality-Constrained Joint Configuration Mapping at KV Page Closure](../topic-3-joint-mapping/README.md)
+- [Topic 2: Attention Read Datapaths for Low-Bit KV Cache Pages](../read-datapath/README.md)
+- [Topic W: Online Scale Determination and Write Datapaths for KV Cache Pages](../write-datapath/README.md)
+- [Topic 3: Quality-Constrained Joint Configuration Mapping at KV Page Closure](../joint-mapping/README.md)

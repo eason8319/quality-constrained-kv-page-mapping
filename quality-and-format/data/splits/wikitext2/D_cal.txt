@@ -1,0 +1,12 @@
+wikitext2/validation/article/13
+wikitext2/validation/article/17
+wikitext2/validation/article/19
+wikitext2/validation/article/34
+wikitext2/validation/article/36
+wikitext2/validation/article/42
+wikitext2/validation/article/46
+wikitext2/validation/article/47
+wikitext2/validation/article/54
+wikitext2/validation/article/55
+wikitext2/validation/article/59
+wikitext2/validation/article/8

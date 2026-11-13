@@ -4,10 +4,10 @@
 
 各课题文件夹中的 README 使用英文标题，研究说明保留中文；总文档保留完整规划与共同接口。
 
-- [Topic 1: Quality Characterization and Storage Formats for Low-Bit KV Cache Pages](topic-1-quality-and-format/README.md)
-- [Topic 2: Attention Read Datapaths for Low-Bit KV Cache Pages](topic-2-read-datapath/README.md)
-- [Topic W: Online Scale Determination and Write Datapaths for KV Cache Pages](topic-w-write-datapath/README.md)
-- [Topic 3: Quality-Constrained Joint Configuration Mapping at KV Page Closure](topic-3-joint-mapping/README.md)
+- [Topic 1: Quality Characterization and Storage Formats for Low-Bit KV Cache Pages](quality-and-format/README.md)
+- [Topic 2: Attention Read Datapaths for Low-Bit KV Cache Pages](read-datapath/README.md)
+- [Topic W: Online Scale Determination and Write Datapaths for KV Cache Pages](write-datapath/README.md)
+- [Topic 3: Quality-Constrained Joint Configuration Mapping at KV Page Closure](joint-mapping/README.md)
 
 ## 一、研究主线与共同约束
 
